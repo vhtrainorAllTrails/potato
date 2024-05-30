@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDC8A64C2C07839B00431890 /* PotatoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8A64B2C07839B00431890 /* PotatoApp.swift */; };
+		FDC8A64E2C07839B00431890 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8A64D2C07839B00431890 /* ContentView.swift */; };
+		FDC8A6502C07839B00431890 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8A64F2C07839B00431890 /* Item.swift */; };
+		FDC8A6522C07839C00431890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC8A6512C07839C00431890 /* Assets.xcassets */; };
+		FDC8A6562C07839C00431890 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC8A6552C07839C00431890 /* Preview Assets.xcassets */; };
+		FDC8A6602C07839C00431890 /* PotatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8A65F2C07839C00431890 /* PotatoTests.swift */; };
+		FDC8A66A2C07839C00431890 /* PotatoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8A6692C07839C00431890 /* PotatoUITests.swift */; };
+		FDC8A66C2C07839C00431890 /* PotatoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8A66B2C07839C00431890 /* PotatoUITestsLaunchTests.swift */; };
+		FDC8A67A2C07875200431890 /* AuraAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8A6792C07875200431890 /* AuraAnimationView.swift */; };
+		FDC8A67C2C08CFCB00431890 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8A67B2C08CFCB00431890 /* ColorPalette.swift */; };
+		FDC8A67E2C08D04400431890 /* FloatingCloudViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8A67D2C08D04400431890 /* FloatingCloudViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDC8A65C2C07839C00431890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDC8A6402C07839B00431890 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDC8A6472C07839B00431890;
+			remoteInfo = Potato;
+		};
+		FDC8A6662C07839C00431890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDC8A6402C07839B00431890 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDC8A6472C07839B00431890;
+			remoteInfo = Potato;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDC8A6482C07839B00431890 /* Potato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Potato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC8A64B2C07839B00431890 /* PotatoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotatoApp.swift; sourceTree = "<group>"; };
+		FDC8A64D2C07839B00431890 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDC8A64F2C07839B00431890 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FDC8A6512C07839C00431890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDC8A6532C07839C00431890 /* Potato.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Potato.entitlements; sourceTree = "<group>"; };
+		FDC8A6552C07839C00431890 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDC8A65B2C07839C00431890 /* PotatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PotatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC8A65F2C07839C00431890 /* PotatoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotatoTests.swift; sourceTree = "<group>"; };
+		FDC8A6652C07839C00431890 /* PotatoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PotatoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC8A6692C07839C00431890 /* PotatoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotatoUITests.swift; sourceTree = "<group>"; };
+		FDC8A66B2C07839C00431890 /* PotatoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotatoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FDC8A6792C07875200431890 /* AuraAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuraAnimationView.swift; sourceTree = "<group>"; };
+		FDC8A67B2C08CFCB00431890 /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		FDC8A67D2C08D04400431890 /* FloatingCloudViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingCloudViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDC8A6452C07839B00431890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC8A6582C07839C00431890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC8A6622C07839C00431890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDC8A63F2C07839B00431890 = {
+			isa = PBXGroup;
+			children = (
+				FDC8A64A2C07839B00431890 /* Potato */,
+				FDC8A65E2C07839C00431890 /* PotatoTests */,
+				FDC8A6682C07839C00431890 /* PotatoUITests */,
+				FDC8A6492C07839B00431890 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDC8A6492C07839B00431890 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDC8A6482C07839B00431890 /* Potato.app */,
+				FDC8A65B2C07839C00431890 /* PotatoTests.xctest */,
+				FDC8A6652C07839C00431890 /* PotatoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDC8A64A2C07839B00431890 /* Potato */ = {
+			isa = PBXGroup;
+			children = (
+				FDC8A6782C07874100431890 /* AuraAnimation */,
+				FDC8A64B2C07839B00431890 /* PotatoApp.swift */,
+				FDC8A64D2C07839B00431890 /* ContentView.swift */,
+				FDC8A64F2C07839B00431890 /* Item.swift */,
+				FDC8A6512C07839C00431890 /* Assets.xcassets */,
+				FDC8A6532C07839C00431890 /* Potato.entitlements */,
+				FDC8A6542C07839C00431890 /* Preview Content */,
+			);
+			path = Potato;
+			sourceTree = "<group>";
+		};
+		FDC8A6542C07839C00431890 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDC8A6552C07839C00431890 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDC8A65E2C07839C00431890 /* PotatoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDC8A65F2C07839C00431890 /* PotatoTests.swift */,
+			);
+			path = PotatoTests;
+			sourceTree = "<group>";
+		};
+		FDC8A6682C07839C00431890 /* PotatoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDC8A6692C07839C00431890 /* PotatoUITests.swift */,
+				FDC8A66B2C07839C00431890 /* PotatoUITestsLaunchTests.swift */,
+			);
+			path = PotatoUITests;
+			sourceTree = "<group>";
+		};
+		FDC8A6782C07874100431890 /* AuraAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				FDC8A6792C07875200431890 /* AuraAnimationView.swift */,
+				FDC8A67B2C08CFCB00431890 /* ColorPalette.swift */,
+				FDC8A67D2C08D04400431890 /* FloatingCloudViewModel.swift */,
+			);
+			path = AuraAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDC8A6472C07839B00431890 /* Potato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC8A66F2C07839C00431890 /* Build configuration list for PBXNativeTarget "Potato" */;
+			buildPhases = (
+				FDC8A6442C07839B00431890 /* Sources */,
+				FDC8A6452C07839B00431890 /* Frameworks */,
+				FDC8A6462C07839B00431890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Potato;
+			productName = Potato;
+			productReference = FDC8A6482C07839B00431890 /* Potato.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDC8A65A2C07839C00431890 /* PotatoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC8A6722C07839C00431890 /* Build configuration list for PBXNativeTarget "PotatoTests" */;
+			buildPhases = (
+				FDC8A6572C07839C00431890 /* Sources */,
+				FDC8A6582C07839C00431890 /* Frameworks */,
+				FDC8A6592C07839C00431890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDC8A65D2C07839C00431890 /* PBXTargetDependency */,
+			);
+			name = PotatoTests;
+			productName = PotatoTests;
+			productReference = FDC8A65B2C07839C00431890 /* PotatoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDC8A6642C07839C00431890 /* PotatoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC8A6752C07839C00431890 /* Build configuration list for PBXNativeTarget "PotatoUITests" */;
+			buildPhases = (
+				FDC8A6612C07839C00431890 /* Sources */,
+				FDC8A6622C07839C00431890 /* Frameworks */,
+				FDC8A6632C07839C00431890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDC8A6672C07839C00431890 /* PBXTargetDependency */,
+			);
+			name = PotatoUITests;
+			productName = PotatoUITests;
+			productReference = FDC8A6652C07839C00431890 /* PotatoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDC8A6402C07839B00431890 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					FDC8A6472C07839B00431890 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					FDC8A65A2C07839C00431890 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FDC8A6472C07839B00431890;
+					};
+					FDC8A6642C07839C00431890 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FDC8A6472C07839B00431890;
+					};
+				};
+			};
+			buildConfigurationList = FDC8A6432C07839B00431890 /* Build configuration list for PBXProject "Potato" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDC8A63F2C07839B00431890;
+			productRefGroup = FDC8A6492C07839B00431890 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDC8A6472C07839B00431890 /* Potato */,
+				FDC8A65A2C07839C00431890 /* PotatoTests */,
+				FDC8A6642C07839C00431890 /* PotatoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDC8A6462C07839B00431890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC8A6562C07839C00431890 /* Preview Assets.xcassets in Resources */,
+				FDC8A6522C07839C00431890 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC8A6592C07839C00431890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC8A6632C07839C00431890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDC8A6442C07839B00431890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC8A67C2C08CFCB00431890 /* ColorPalette.swift in Sources */,
+				FDC8A64E2C07839B00431890 /* ContentView.swift in Sources */,
+				FDC8A6502C07839B00431890 /* Item.swift in Sources */,
+				FDC8A67A2C07875200431890 /* AuraAnimationView.swift in Sources */,
+				FDC8A67E2C08D04400431890 /* FloatingCloudViewModel.swift in Sources */,
+				FDC8A64C2C07839B00431890 /* PotatoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC8A6572C07839C00431890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC8A6602C07839C00431890 /* PotatoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC8A6612C07839C00431890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC8A66A2C07839C00431890 /* PotatoUITests.swift in Sources */,
+				FDC8A66C2C07839C00431890 /* PotatoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDC8A65D2C07839C00431890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDC8A6472C07839B00431890 /* Potato */;
+			targetProxy = FDC8A65C2C07839C00431890 /* PBXContainerItemProxy */;
+		};
+		FDC8A6672C07839C00431890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDC8A6472C07839B00431890 /* Potato */;
+			targetProxy = FDC8A6662C07839C00431890 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FDC8A66D2C07839C00431890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDC8A66E2C07839C00431890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FDC8A6702C07839C00431890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Potato/Potato.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Potato/Preview Content\"";
+				DEVELOPMENT_TEAM = TKSCDWB4LG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vhtrainor.Potato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDC8A6712C07839C00431890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Potato/Potato.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Potato/Preview Content\"";
+				DEVELOPMENT_TEAM = TKSCDWB4LG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vhtrainor.Potato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDC8A6732C07839C00431890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TKSCDWB4LG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vhtrainor.PotatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Potato.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Potato";
+			};
+			name = Debug;
+		};
+		FDC8A6742C07839C00431890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TKSCDWB4LG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vhtrainor.PotatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Potato.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Potato";
+			};
+			name = Release;
+		};
+		FDC8A6762C07839C00431890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TKSCDWB4LG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vhtrainor.PotatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Potato;
+			};
+			name = Debug;
+		};
+		FDC8A6772C07839C00431890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TKSCDWB4LG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vhtrainor.PotatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Potato;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDC8A6432C07839B00431890 /* Build configuration list for PBXProject "Potato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC8A66D2C07839C00431890 /* Debug */,
+				FDC8A66E2C07839C00431890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC8A66F2C07839C00431890 /* Build configuration list for PBXNativeTarget "Potato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC8A6702C07839C00431890 /* Debug */,
+				FDC8A6712C07839C00431890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC8A6722C07839C00431890 /* Build configuration list for PBXNativeTarget "PotatoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC8A6732C07839C00431890 /* Debug */,
+				FDC8A6742C07839C00431890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC8A6752C07839C00431890 /* Build configuration list for PBXNativeTarget "PotatoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC8A6762C07839C00431890 /* Debug */,
+				FDC8A6772C07839C00431890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDC8A6402C07839B00431890 /* Project object */;
+}
