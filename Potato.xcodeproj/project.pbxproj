@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD0BE5FA2C09186C00438616 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0BE5F92C09186C00438616 /* Utilities.swift */; };
+		FD0BE5FC2C09198A00438616 /* FloatingCloudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0BE5FB2C09198A00438616 /* FloatingCloudView.swift */; };
 		FDC8A64C2C07839B00431890 /* PotatoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8A64B2C07839B00431890 /* PotatoApp.swift */; };
 		FDC8A64E2C07839B00431890 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8A64D2C07839B00431890 /* ContentView.swift */; };
-		FDC8A6502C07839B00431890 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8A64F2C07839B00431890 /* Item.swift */; };
 		FDC8A6522C07839C00431890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC8A6512C07839C00431890 /* Assets.xcassets */; };
 		FDC8A6562C07839C00431890 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC8A6552C07839C00431890 /* Preview Assets.xcassets */; };
 		FDC8A6602C07839C00431890 /* PotatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8A65F2C07839C00431890 /* PotatoTests.swift */; };
@@ -17,7 +18,7 @@
 		FDC8A66C2C07839C00431890 /* PotatoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8A66B2C07839C00431890 /* PotatoUITestsLaunchTests.swift */; };
 		FDC8A67A2C07875200431890 /* AuraAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8A6792C07875200431890 /* AuraAnimationView.swift */; };
 		FDC8A67C2C08CFCB00431890 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8A67B2C08CFCB00431890 /* ColorPalette.swift */; };
-		FDC8A67E2C08D04400431890 /* FloatingCloudViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8A67D2C08D04400431890 /* FloatingCloudViewModel.swift */; };
+		FDC8A67E2C08D04400431890 /* AuraAnimationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8A67D2C08D04400431890 /* AuraAnimationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD0BE5F92C09186C00438616 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		FD0BE5FB2C09198A00438616 /* FloatingCloudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingCloudView.swift; sourceTree = "<group>"; };
 		FDC8A6482C07839B00431890 /* Potato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Potato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC8A64B2C07839B00431890 /* PotatoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotatoApp.swift; sourceTree = "<group>"; };
 		FDC8A64D2C07839B00431890 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FDC8A64F2C07839B00431890 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		FDC8A6512C07839C00431890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDC8A6532C07839C00431890 /* Potato.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Potato.entitlements; sourceTree = "<group>"; };
 		FDC8A6552C07839C00431890 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -52,7 +54,7 @@
 		FDC8A66B2C07839C00431890 /* PotatoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotatoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FDC8A6792C07875200431890 /* AuraAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuraAnimationView.swift; sourceTree = "<group>"; };
 		FDC8A67B2C08CFCB00431890 /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
-		FDC8A67D2C08D04400431890 /* FloatingCloudViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingCloudViewModel.swift; sourceTree = "<group>"; };
+		FDC8A67D2C08D04400431890 /* AuraAnimationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuraAnimationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +108,10 @@
 				FDC8A6782C07874100431890 /* AuraAnimation */,
 				FDC8A64B2C07839B00431890 /* PotatoApp.swift */,
 				FDC8A64D2C07839B00431890 /* ContentView.swift */,
-				FDC8A64F2C07839B00431890 /* Item.swift */,
 				FDC8A6512C07839C00431890 /* Assets.xcassets */,
 				FDC8A6532C07839C00431890 /* Potato.entitlements */,
 				FDC8A6542C07839C00431890 /* Preview Content */,
+				FD0BE5F92C09186C00438616 /* Utilities.swift */,
 			);
 			path = Potato;
 			sourceTree = "<group>";
@@ -144,7 +146,8 @@
 			children = (
 				FDC8A6792C07875200431890 /* AuraAnimationView.swift */,
 				FDC8A67B2C08CFCB00431890 /* ColorPalette.swift */,
-				FDC8A67D2C08D04400431890 /* FloatingCloudViewModel.swift */,
+				FDC8A67D2C08D04400431890 /* AuraAnimationViewModel.swift */,
+				FD0BE5FB2C09198A00438616 /* FloatingCloudView.swift */,
 			);
 			path = AuraAnimation;
 			sourceTree = "<group>";
@@ -279,11 +282,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD0BE5FC2C09198A00438616 /* FloatingCloudView.swift in Sources */,
 				FDC8A67C2C08CFCB00431890 /* ColorPalette.swift in Sources */,
 				FDC8A64E2C07839B00431890 /* ContentView.swift in Sources */,
-				FDC8A6502C07839B00431890 /* Item.swift in Sources */,
+				FD0BE5FA2C09186C00438616 /* Utilities.swift in Sources */,
 				FDC8A67A2C07875200431890 /* AuraAnimationView.swift in Sources */,
-				FDC8A67E2C08D04400431890 /* FloatingCloudViewModel.swift in Sources */,
+				FDC8A67E2C08D04400431890 /* AuraAnimationViewModel.swift in Sources */,
 				FDC8A64C2C07839B00431890 /* PotatoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

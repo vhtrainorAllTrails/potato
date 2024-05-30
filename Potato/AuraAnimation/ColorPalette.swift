@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct ColorPaletteView: View {
-    let colorPalette: FloatingCloudViewModel.ColorPalette
+    let colorPalette: AuraAnimationViewModel.ColorPalette
     let numColors: Int
 
-    init(colorPalette: FloatingCloudViewModel.ColorPalette) {
+    init(colorPalette: AuraAnimationViewModel.ColorPalette) {
         self.colorPalette = colorPalette
         self.numColors = colorPalette.colors.count
     }
@@ -37,8 +37,8 @@ struct ColorPaletteView: View {
 
 #Preview {
     VStack {
-        ColorPaletteView(colorPalette: FloatingCloudViewModel.nightPalette)
-        ColorPaletteView(colorPalette: FloatingCloudViewModel.dayPalette)
-        ColorPaletteView(colorPalette: FloatingCloudViewModel.rainyPalette)
+        ColorPaletteView(colorPalette: AuraAnimationViewModel.nightPalette)
+        ColorPaletteView(colorPalette: AuraAnimationViewModel.dayPalette)
+        ColorPaletteView(colorPalette: AuraAnimationViewModel.rainyPalette)
     }
 }
